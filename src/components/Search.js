@@ -9,10 +9,10 @@ function Search() {
                 </div>
                 <div>
                 <select class="custom-select" id="inputGroupSelect02">
-                 <option selected>District...</option>
+                 
                 {
                     userData.map((user)=>(
-                    <option value="1">{user.district}</option>
+                    <option value="0" selected>{user.district}</option>
                     ))
                 }
                 
